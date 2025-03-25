@@ -1,0 +1,66 @@
+[0.137s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.137s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', event_handlers=None, base_paths=['.'], paths=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True), verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e1a73429db0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e1a73429db0>>)
+[0.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.594s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hyj/Desktop/c:ros2_wssrc'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(YuJcar_Ros2_Package) by extensions ['ignore', 'ignore_ament_install']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(YuJcar_Ros2_Package) by extension 'ignore'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(YuJcar_Ros2_Package) by extension 'ignore_ament_install'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(YuJcar_Ros2_Package) by extensions ['ros']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(YuJcar_Ros2_Package) by extension 'ros'
+[0.630s] DEBUG:colcon.colcon_core.package_identification:Package 'YuJcar_Ros2_Package' with type 'ros.ament_python' and name 'YuJcar_Ros2_Package'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.631s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'YuJcar_Ros2_Package' build argument 'cmake_args' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'YuJcar_Ros2_Package' build argument 'cmake_target' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'YuJcar_Ros2_Package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'YuJcar_Ros2_Package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'YuJcar_Ros2_Package' build argument 'cmake_clean_first' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'YuJcar_Ros2_Package' build argument 'cmake_force_configure' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'YuJcar_Ros2_Package' build argument 'ament_cmake_args' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'YuJcar_Ros2_Package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'YuJcar_Ros2_Package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.692s] DEBUG:colcon.colcon_core.verb:Building package 'YuJcar_Ros2_Package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hyj/Desktop/c:ros2_wssrc/build/YuJcar_Ros2_Package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hyj/Desktop/c:ros2_wssrc/install/YuJcar_Ros2_Package', 'merge_install': False, 'path': '/home/hyj/Desktop/c:ros2_wssrc/YuJcar_Ros2_Package', 'symlink_install': False, 'test_result_base': None}
+[0.692s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.696s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'YuJcar_Ros2_Package'
+[0.696s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hyj/Desktop/c:ros2_wssrc/YuJcar_Ros2_Package' with build type 'ament_python'
+[0.696s] Level 1:colcon.colcon_core.shell:create_environment_hook('YuJcar_Ros2_Package', 'ament_prefix_path')
+[0.700s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.700s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hyj/Desktop/c:ros2_wssrc/install/YuJcar_Ros2_Package/share/YuJcar_Ros2_Package/hook/ament_prefix_path.dsv'
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hyj/Desktop/c:ros2_wssrc/install/YuJcar_Ros2_Package/share/YuJcar_Ros2_Package/hook/ament_prefix_path.sh'
+[0.704s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.235s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'YuJcar_Ros2_Package' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.236s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'YuJcar_Ros2_Package' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.237s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hyj/Desktop/c:ros2_wssrc/YuJcar_Ros2_Package'
+[1.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hyj/Desktop/c:ros2_wssrc/YuJcar_Ros2_Package': PYTHONPATH=/home/hyj/Desktop/c:ros2_wssrc/build/YuJcar_Ros2_Package/prefix_override:/home/hyj/Desktop/c:ros2_wssrc/install/YuJcar_Ros2_Package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/YuJcar_Ros2_Package build --build-base /home/hyj/Desktop/c:ros2_wssrc/build/YuJcar_Ros2_Package/build install --record /home/hyj/Desktop/c:ros2_wssrc/build/YuJcar_Ros2_Package/install.log --single-version-externally-managed
+[2.384s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'YuJcar_Ros2_Package' finished with '1'
+[2.384s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[2.385s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[2.386s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hyj/Desktop/c:ros2_wssrc/YuJcar_Ros2_Package' returned '1': PYTHONPATH=/home/hyj/Desktop/c:ros2_wssrc/build/YuJcar_Ros2_Package/prefix_override:/home/hyj/Desktop/c:ros2_wssrc/install/YuJcar_Ros2_Package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/YuJcar_Ros2_Package build --build-base /home/hyj/Desktop/c:ros2_wssrc/build/YuJcar_Ros2_Package/build install --record /home/hyj/Desktop/c:ros2_wssrc/build/YuJcar_Ros2_Package/install.log --single-version-externally-managed
+[2.388s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.388s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hyj/Desktop/c:ros2_wssrc/install/local_setup.sh'
+[2.390s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hyj/Desktop/c:ros2_wssrc/install/_local_setup_util_sh.py'
+[2.392s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hyj/Desktop/c:ros2_wssrc/install/setup.sh'

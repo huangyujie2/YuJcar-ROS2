@@ -1,0 +1,3 @@
+[console_scripts]
+yujcar_node = YuJcar_Ros2_Package.yujcar_node:main
+
